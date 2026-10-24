@@ -2,16 +2,15 @@
 
 # News API
 
-A students grade tracker for school examinations.
-It reads the students' raw data logged by the teacher, cleans it, computes the results then outputs the report.
+A news command -line tool that works easily with clear prompts.
+Provides the news of a certain country in the category chosen from the prompt options by the user. 
+
 
 ## What It Does
 
-- Reads students score from a structured CSV data
-- Handles missing and invalid input without crashing
-- Applies logic to compute results  and assign each student's average score and grade
-- Formats a clear report
-- Exports the summary to JSON
+- Prompts the user to type in the country of interest (eg Kenya)
+- Next, it prompts the user to choose from the range of available news categories  (eg 1 - Technology, 2 - Sports)
+- Runs the code and gives the requested news in brief, indicating the source 
 
 ## Setup
 
